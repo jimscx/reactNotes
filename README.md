@@ -46,6 +46,7 @@ class App extends React.Component {
 }
 ```
 2.3 Link的使用 
+Link组件用于取代<a>元素，生成一个链接，允许用户点击后跳转到另一个路由。它基本上就是<a>元素的React版本，可以接收Router的状态。
 * import { Router, Route, Link } from 'react-router'
 ```
 this.state.users.map(user => (
