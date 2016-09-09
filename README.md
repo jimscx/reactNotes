@@ -9,8 +9,8 @@
 
 
 
-### 2.路由的基本使用 react-router 
-2.1. 首先引入根组件 `import Router from 'react-router';`然后使用{} 的形式把你定义的路由规则加载进来
+### 2.路由的基本使用 [react-router](https://github.com/reactjs/react-router)
+2.1. 首先使用根路由组件 `import Router from 'react-router';`然后使用{} 的形式把你定义的路由规则加载进来
 ```
 import React from 'react';
 import Router from 'react-router';
